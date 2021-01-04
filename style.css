@@ -162,7 +162,7 @@ header .menu{
             .mota img:nth-last-child(n-2){
                 margin-top: 30px;
             }
-            /* animation cho nd1 */
+/* animation cho nd1 */
         .thunhat{
             animation:thunhat ease;
             animation-duration: 7s;
@@ -173,6 +173,9 @@ header .menu{
             from{left:-400px}
             to{left: 0;}
         }
+/* end animation cho nd1 */    
+
+/* animation cho nd2 */
         .thuhai{
             animation: thuhai ease;
             animation-duration: 7s;
@@ -183,6 +186,9 @@ header .menu{
             from{top: -900px;}
             to{top: 0;}
         }
+/* end animation cho nd2 */
+
+/* animation cho nd3 */
         .thuba{
             animation: thuba ease;
             animation-duration: 7s;
@@ -193,7 +199,8 @@ header .menu{
             from{right: -300px;}
             to{right: 0;}
         }
-        /* end animation cho nd1 */
+/* end animation cho nd3 */        
+
     .nd2{
         background-image: url("./image/bg-dvcq2.jpg");
         background-attachment: fixed;
@@ -323,7 +330,6 @@ header .menu{
             text-align: center;
             border-radius: 5px;
             color:#000;
-            height: 100%;
         }
 
            .td h2{
@@ -380,7 +386,7 @@ form button {
         margin-left: 10px;
     }
     .footer .tren{
-        margin-top: 15px;
+        margin-top: 5px;
         font-size: 14px;
         display: flex;
         color: #d01d25;
@@ -651,10 +657,10 @@ form button {
         height: 200px;
     }
 
-    /* .content-page4  {
-        margin-bottom: 30px;
-    } */
-        
+    .content-page1 .mota {
+        animation-duration: 0.5s;
+    }
+
 }
 
 /* end moblie */
@@ -664,8 +670,9 @@ form button {
     header {
         display: none;
     }
-    .nd1{height: 1000px;}
-
+    .nd1{
+        height: 1000px;
+    }
 
     .icon-bar{
         display: block;
@@ -680,13 +687,24 @@ form button {
         padding-top: 20px;
     }
 
-    .trai img{
+    .nd3 .trai {
         display: none;
     }
+
+    .nd3 .phai{
+        text-align: center;
+        padding-left: 120px;
+    }
+
+    .content-page1 .mota {
+        animation-duration: 0.5s;
+    }
+
+   .td{
+       height: 700px;
+   }
 }
 
 /* end Tablet */
-
-                        
+                  
                         /* end resopnesive */
-   
